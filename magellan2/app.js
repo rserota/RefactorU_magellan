@@ -32,23 +32,23 @@ app.get('/', function(request, response){
 });
 
 app.get('/canaryislands', function(request, response){
-    response.render('canaryislands')
+    response.send('Canary Islands')
 });
 
 app.get('/capeverde', function(request, response){
-    response.render('capeverde')
+    response.send('Cape Verde')
 });
 
 app.get('/straitofmagellan', function(request, response){
-    response.render('straitofmagellan')
+    response.send('Strait of Magellan')
 });
 
 app.get('/guam', function(request, response){
-    response.render('guam')
+    response.send('Guam')
 });
 
 app.get('/philippines', function(request, response){
-    response.render('philippines')
+    response.send('Philippines')
 });
 
 
